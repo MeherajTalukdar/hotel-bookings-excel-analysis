@@ -18,10 +18,7 @@ The goal is to answer 20 business questions a hotel revenue manager or operation
 ```
 hotel-bookings-excel-analysis/
 │
-├── README.md                        ← You are here
-│
-├── data/
-│   └── README.md                    ← How to get the dataset
+├── README.md                      
 │
 ├── questions/
 │   └── business_questions.md        ← All 20 business questions
@@ -33,7 +30,7 @@ hotel-bookings-excel-analysis/
 │   └── 04_power_pivot_dax.md        ← Q16–Q20: Power Pivot, DAX & Dashboard
 │
 └── assets/
-    └── dashboard_preview.png        ← Dashboard screenshot (add your own)
+    └── dashboard_preview.png        ← Dashboard screenshot 
 ```
 
 ---
@@ -51,50 +48,6 @@ hotel-bookings-excel-analysis/
 | Hotels | City Hotel & Resort Hotel |
 | File format | CSV (semicolon-delimited) → converted to `.xlsx` |
 
-### Column Reference
-
-| Column | Type | Description |
-|---|---|---|
-| `hotel` | Text | Hotel type: City Hotel or Resort Hotel |
-| `is_canceled` | 0/1 | 1 = booking was canceled |
-| `lead_time` | Number | Days between booking and arrival |
-| `arrival_date_year` | Number | Arrival year (2015–2017) |
-| `arrival_date_month` | Text | Arrival month name |
-| `arrival_date_week_number` | Number | ISO week number |
-| `arrival_date_day_of_month` | Number | Day of arrival |
-| `stays_in_weekend_nights` | Number | Weekend nights stayed |
-| `stays_in_week_nights` | Number | Weekday nights stayed |
-| `adults` | Number | Number of adults |
-| `children` | Number | Number of children |
-| `babies` | Number | Number of babies |
-| `meal` | Text | Meal plan: BB, HB, FB, SC |
-| `country` | Text | Guest country (ISO 3166) |
-| `market_segment` | Text | Online TA, Direct, Corporate, etc. |
-| `distribution_channel` | Text | Booking channel |
-| `is_repeated_guest` | 0/1 | 1 = returning guest |
-| `previous_cancellations` | Number | Prior cancellations by this guest |
-| `previous_bookings_not_canceled` | Number | Prior completed bookings |
-| `reserved_room_type` | Text | Room type requested |
-| `assigned_room_type` | Text | Room type actually given |
-| `booking_changes` | Number | Number of modifications made |
-| `deposit_type` | Text | No Deposit, Non Refund, Refundable |
-| `agent` | Number | Travel agent ID |
-| `company` | Number | Company ID |
-| `days_in_waiting_list` | Number | Days on waiting list before confirmation |
-| `customer_type` | Text | Transient, Contract, Group, Transient-Party |
-| `adr` | Decimal | Average Daily Rate (€) |
-| `required_car_parking_spaces` | Number | Parking spaces requested |
-| `total_of_special_requests` | Number | Number of special requests made |
-| `reservation_status` | Text | Check-Out, Canceled, No-Show |
-| `reservation_status_date` | Date | Date of last status change |
-| `arrival_date` ⭐ | Date | Engineered: full arrival date |
-| `total_nights` ⭐ | Number | Engineered: weekend + week nights |
-| `total_guests` ⭐ | Number | Engineered: adults + children + babies |
-| `room_upgraded` ⭐ | 0/1 | Engineered: 1 if assigned ≠ reserved room |
-
-> ⭐ = columns added during the Power Query cleaning step
-
----
 
 ## 🛠️ Tools & Skills Used
 
