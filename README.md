@@ -1,13 +1,13 @@
 # 🏨 Hotel Bookings — Excel Data Analysis Project
 
 A complete, hands-on Excel data analysis project using a real-world hotel bookings dataset.  
-Built as a portfolio project after completing **Luke Barousse's Excel for Data Analytics** course.
+
 
 ---
 
 ## 📌 Project Overview
 
-This project applies every major Excel skill from the course — from basic formulas through to Power Query, Power Pivot, and DAX — on a real hotel industry dataset with 119,390 booking records.
+This project applies from basic formulas through to Power Query, Power Pivot, and DAX on a real hotel industry dataset with 119,390 booking records.
 
 The goal is to answer 20 business questions a hotel revenue manager or operations analyst would genuinely ask, and to build a fully interactive performance dashboard as the capstone.
 
