@@ -3,9 +3,7 @@
 A complete, hands-on Excel data analysis project using a real-world hotel bookings dataset.  
 
 
----
-
-## 📌 Project Overview
+Project Overview
 
 This project applies from basic formulas through to Power Query, Power Pivot, and DAX on a real hotel industry dataset with 119,390 booking records.
 
@@ -13,7 +11,7 @@ The goal is to answer 20 business questions a hotel revenue manager or operation
 
 ---
 
-## 🗂️ Repository Structure
+Repository Structure
 
 ```
 hotel-bookings-excel-analysis/
@@ -35,7 +33,7 @@ hotel-bookings-excel-analysis/
 
 ---
 
-## 📊 Dataset
+Dataset
 
 **Source:** [Hotel Booking Demand — Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)  
 **Original paper:** Antonio, Almeida & Nunes (2019), *Hotel booking demand datasets*, Data in Brief
@@ -49,7 +47,7 @@ hotel-bookings-excel-analysis/
 | File format | CSV (semicolon-delimited) → converted to `.xlsx` |
 
 
-## 🛠️ Tools & Skills Used
+Tools & Skills Used
 
 | Tool | Skills Applied |
 |---|---|
@@ -64,19 +62,19 @@ hotel-bookings-excel-analysis/
 
 ---
 
-## 📋 Business Questions Summary
+Business Questions Summary
 
 > Full questions with hints: [`questions/business_questions.md`](questions/business_questions.md)  
 > Step-by-step solutions: [`solutions/`](solutions/)
 
-### 🟢 Beginner — Formulas & Functions (Q1–Q5)
+Beginner — Formulas & Functions (Q1–Q5)
 1. What is the overall cancellation rate across all bookings?
 2. Which hotel type has a higher average daily rate?
 3. Add a `total_guests` calculated column to the data.
 4. Classify each booking's lead time as Last Minute / Short / Medium / Long.
 5. How many bookings had a room upgrade?
 
-### 🟡 Intermediate — PivotTables & Charts (Q6–Q12)
+Intermediate — PivotTables & Charts (Q6–Q12)
 6. Which month has the highest number of arrivals?
 7. What is the cancellation rate by market segment?
 8. Build a chart: average ADR by month for each hotel type.
@@ -85,12 +83,11 @@ hotel-bookings-excel-analysis/
 11. Do guests who make more special requests cancel less?
 12. What is the cancellation rate of repeated vs new guests?
 
-### 🟠 Advanced — Power Query (Q13–Q15)
+Advanced — Power Query (Q13–Q15)
 13. Build a proper `arrival_date` column from three separate columns.
 14. Replace "NULL" text values in `agent` and `company` with proper blanks.
 15. Split the dataset by hotel type, then Append back into one master table.
-
-### 🔴 Advanced — Power Pivot & DAX (Q16–Q20)
+Advanced — Power Pivot & DAX (Q16–Q20)
 16. DAX measure: `Est Revenue = adr × total_nights`. Revenue by hotel and year?
 17. DAX measure: Cancellation Rate. Does deposit type affect cancellations?
 18. DAX measure: Average waiting list days for canceled vs. completed bookings.
